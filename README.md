@@ -34,13 +34,9 @@ Crie o banco de dados no MySQL com o nome sistema_usuarios .
 
 Você pode criar o banco de dados usando o seguinte comando SQL:
 
-sql
-Copiar código
 CREATE DATABASE sistema_usuarios;
 Importe a estrutura do banco de dados. Utilize o arquivo database.sql ou execute o seguinte SQL para criar a tabela de usuários:
 
-sql
-Copiar código
 CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
@@ -54,8 +50,7 @@ Abra o arquivo config/database.php.
 
 Modifique as configurações de conexão com o banco de dados conforme o seu ambiente:
 
-php
-Copiar código
+
 <?php
 $host = 'localhost'; // Endereço do servidor de banco de dados
 $dbname = 'sistema_usuarios'; // Nome do banco de dados
