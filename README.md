@@ -78,9 +78,9 @@ Acesse o projeto pelo navegador, acessando http://localhost/user_management/.
 5. Acessando o Sistema
 Após configurar o servidor, você pode acessar as páginas de cadastro, edição e listagem de usuários diretamente no seu navegador:
 
-Cadastro de Usuário: http://localhost/user_management/views/client/cadastro.html
-Listagem de Usuários: http://localhost/user_management/views/admin/index.html
-Edição de Usuário: http://localhost/user_management/views/admin/editar.html?id={id}
+Cadastro de Usuário: http://localhost/user_management/views/cadastro.html
+Listagem de Usuários: http://localhost/user_management/views/index.html
+Edição de Usuário: http://localhost/user_management/views/editar.html?id={id}
 6. Testando a API
 A API de usuários está disponível nas seguintes rotas:
 
